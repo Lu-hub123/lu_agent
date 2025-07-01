@@ -1,0 +1,10 @@
+{
+    "n_steps": 0,
+    "cum_reward": 0,
+    "cum_raw_reward": 0,
+    "err_msg": "Exception uncaught by agent or environment in task openended.\nOpenAIError:\nThe api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable",
+    "stack_trace": "Traceback (most recent call last):\n  File \"/mnt/d/models/Verl/verl-agent/agent_system/environments/env_package/BrowserGym/browsergym/experiments/src/browsergym/experiments/loop.py\", line 399, in run\n    agent = self.agent_args.make_agent()\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/d/models/Verl/verl-agent/agent_system/environments/env_package/BrowserGym/demo_agent/agent.py\", line 350, in make_agent\n    return DemoAgent(\n           ^^^^^^^^^^\n  File \"/mnt/d/models/Verl/verl-agent/agent_system/environments/env_package/BrowserGym/demo_agent/agent.py\", line 71, in __init__\n    self.openai_client = openai.OpenAI()\n                         ^^^^^^^^^^^^^^^\n  File \"/home/lulip/miniconda3/envs/verl-agent/lib/python3.12/site-packages/openai/_client.py\", line 126, in __init__\n    raise OpenAIError(\nopenai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable\n",
+    "stats.cum_steps": 1,
+    "terminated": null,
+    "truncated": null
+}

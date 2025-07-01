@@ -1,0 +1,89 @@
+conda create -n verl-agent python==3.12 -y
+conda activate verl-agent
+conda create -n verl-agent python==3.12 -y
+conda activate verl-agent`
+
+setx CONDA_ENVS_PATH D:\Anaconda\my_envs`
+
+conda activate verl-agent`
+
+conda create -n verl-agent python==3.12 -y
+conda activate verl-agent`
+
+$env:TEMP="C:\Temp"`
+$env:TMP="C:\Temp"`
+
+conda activate verl-agent`
+
+conda create -n verl-agent python==3.12 -y
+$env:CONDA_ENVS_PATH = "D:\Anaconda\my_envs"`
+$env:CONDA_PKGS_DIRS = "D:\Anaconda\pkgs"`
+$env:USERPROFILE = "D:\Anaconda\tempuser"`
+
+conda create -n verl-agent python==3.12 -y
+conda activate verl-agent
+$ conda activate verl-agent    
+conda activate verl-agent`
+
+conda activate verl-agent
+conda info`
+
+conda activate verl-agent`
+
+conda init powershell`
+
+conda info`
+
+conda activate verl-agent`
+
+$env:PYTHONIOENCODING = "utf-8"`
+$env:CONDA_PKGS_DIRS = "D:\Anaconda\pkgs"`
+$env:CONDA_ENVS_PATH = "D:\Anaconda\my_envs"`
+$env:USERPROFILE = "D:\Anaconda\tempuser"`
+
+New-Item -ItemType Directory -Path "D:\Anaconda\tempuser" -Force`
+
+conda activate verl-agent`
+
+pip3 install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+pip3 install flash-attn==2.7.4.post1 --no-build-isolation
+$env:TEMP="D:\temp"`
+$env:TMP="D:\temp"`
+
+cd temp
+cd ..
+cd temp
+pip install flash-attn==2.7.4.post1 --no-build-isolation`
+
+conda activate verl-agent
+conda create -n verl-agent python==3.12 -y
+$env:PYTHONIOENCODING = "utf-8"`
+$env:CONDA_PKGS_DIRS = "D:\Anaconda\pkgs"`
+$env:CONDA_ENVS_PATH = "D:\Anaconda\my_envs"`
+$env:USERPROFILE = "D:\Anaconda\tempuser"`
+
+New-Item -ItemType Directory -Path "D:\Anaconda\tempuser" -Force`
+
+conda activate verl-agent
+pip3 install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+pip3 install flash-attn==2.7.4.post1 --no-build-isolation
+nvcc --version`
+
+Get-WmiObject Win32_Product | Where-Object { $_.Name -like "*CUDA*" }`
+
+chcp 65001`
+
+conda init powershell`
+
+conda create -n verl-agent python==3.12 -y`
+`
+$env:PYTHONIOENCODING = "utf-8"`
+>> $env:CONDA_PKGS_DIRS = "D:\Anaconda\pkgs"`
+>> $env:CONDA_ENVS_PATH = "D:\Anaconda\my_envs"`
+>> $env:USERPROFILE = "D:\Anaconda\tempuser"`
+`
+New-Item -ItemType Directory -Path "D:\Anaconda\tempuser" -Force`
+`
+conda activate verl-agent
+conda activate verl-agent
+pip3 install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
