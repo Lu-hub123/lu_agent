@@ -121,9 +121,11 @@ class BrowserGymMultiProcessEnv(gym.Env):
         # env_kwargs: Dict[str, Any] | None = None,
     ) -> None:
         super().__init__()
+        print("[debug] 正在启动 Ray...")
 
         if not ray.is_initialized():
             ray.init()
+        print("[debug] Ray 启动成功")
 
         self.group_n = group_n
         self.env_num = env_num

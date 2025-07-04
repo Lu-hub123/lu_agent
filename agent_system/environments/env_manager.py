@@ -968,10 +968,10 @@ if __name__ == "__main__":
         # }
         t0 = time.time()
         envs = build_browsergym_envs(
-            task_name="openended",
+            task_name="webarena.310",
             task_seed=None,
             max_steps=3,
-            headless=False,
+            headless=True,
         ) #调用函数传入对应的参数，没有传入的为默认值
         env_manager = BrowserGymEnvironmentManager(envs, browsergym_projection, 'browsergym')
 
